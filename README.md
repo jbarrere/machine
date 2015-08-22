@@ -12,7 +12,6 @@ Change this value to change machine storage folder (docker-machine `-s` option) 
 
 `DOCKER_MACHINE_WITH_OPTS`  
 default value: `DOCKER_MACHINE_WITH_OPTS="./docker-machine.exe -s $STORAGE"`    
-docker-machine options.
 
 `VBOX_HOME`  
 default value: `VBOX_HOME="/c/Program Files/Oracle/VirtualBox"`  
@@ -22,7 +21,7 @@ VirtualBox installation folder.
 default value: `DOCKER_TOOLBOX_HOME="/c/Program Files/Docker Toolbox"`  
 Docker Toolbox installation folder.
 
-`DOCKER_CREATE_OPTS`
+`DOCKER_CREATE_OPTS`  
 default value: `DOCKER_CREATE_OPTS="--virtualbox-memory 2048"`  
 Docker options for VM creation.
 
