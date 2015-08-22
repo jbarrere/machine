@@ -7,7 +7,7 @@ Note: This script was initialized with docker-machine `script.sh`
 machine.sh variables:
 
 `STORAGE`  
-default value: `STORAGE="~/.docker/machine"`  
+default value: `$USERPROFILE/.docker/machine`  
 Change this value to change machine storage folder (docker-machine `-s` option) another folder (ex : `STORAGE="/d/Users/Bob/.docker/machine"`).
 
 `DOCKER_MACHINE_WITH_OPTS`  
