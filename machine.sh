@@ -4,7 +4,7 @@
 trap '[ "$?" -eq 0 ] || read -p "Looks like something went wrong... Press any key to continue..."' EXIT
 # #########################################################
 # variables
-STORAGE="~/.docker/machine"
+STORAGE="$USERPROFILE/.docker/machine"
 DOCKER_MACHINE_WITH_OPTS="./docker-machine.exe -s $STORAGE"
 VBOX_HOME="/c/Program Files/Oracle/VirtualBox"
 DOCKER_TOOLBOX_HOME="/c/Program Files/Docker Toolbox"
